@@ -1,0 +1,16 @@
+[06-May-2020 05:08:29 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 17:32:15 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/thebrain/public_html/email/mailer.php on line 70
+[06-May-2020 17:41:00 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 960
+[06-May-2020 17:47:52 UTC] PHP Warning:  Illegal offset type in /home/thebrain/public_html/email/mailer.php on line 17
+[06-May-2020 17:47:52 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 18:27:54 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 960
+[06-May-2020 18:52:05 UTC] PHP Warning:  Illegal offset type in /home/thebrain/public_html/email/mailer.php on line 17
+[06-May-2020 18:52:05 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 19:15:39 UTC] PHP Warning:  Illegal offset type in /home/thebrain/public_html/email/mailer.php on line 17
+[06-May-2020 19:15:39 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 21:02:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 960
+[06-May-2020 21:05:46 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 960
+[06-May-2020 21:12:52 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 21:56:24 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 22:19:58 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
+[06-May-2020 22:31:31 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/thebrain/public_html/email/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 3599
