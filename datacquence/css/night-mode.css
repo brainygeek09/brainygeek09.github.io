@@ -2056,6 +2056,10 @@ Night Mood
 	border: 1px solid #242424;
 }
 
+.night-mode .tablinks {
+	color: white;
+}
+
 .night-mode .adcrse_body {
 	background: #242424;
     border-left: 1px solid #242424;

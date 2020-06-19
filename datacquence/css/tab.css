@@ -1,0 +1,30 @@
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  width: 30%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: transparent;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+}

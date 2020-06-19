@@ -19,6 +19,7 @@
 		<link href="css/vertical-responsive-menu.min.css" rel="stylesheet">
 		<link href="css/style-new.css" rel="stylesheet">
 		<link href="css/style-landing.css" rel="stylesheet">
+		<link href="css/tab.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
 		<link href="css/responsive-landing.css" rel="stylesheet">
 		<link href="css/night-mode.css" rel="stylesheet">
@@ -54,7 +55,7 @@
 			<div class="header_right pr-0">
 				<ul>				
 					<li class="ui top right pointing dropdown">
-						<a href="#" class="opts_account" style="color: black;">
+						<a href="#" class="opts_account" style="color: #D2D3D5;">
 							<i class="uil uil-moon"></i> <strong>Night Mode</strong>
 						</a>
 						<div class="menu dropdown_account">
@@ -117,45 +118,61 @@
 	<div class="_215td5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="title589 text-center">
-						<h2>Values Proposition</h2>
-						<p>We deliver relevant and high-quality content through our elite community of instructors, experts, and thought leaders.</p>
-						<img class="line-title" src="images/line.svg" alt="">
+				<div class="col-md-12 text-center">
+					<div class="title589">
+						<h2>Values Proposition</h2><br>
+						<p>We provide engaging and effective ways to learn through virtual labs, practice tests, and assessments.</p>
 					</div>
-				</div>
-				<div class="col-lg-3  col-sm-6">
-					<div class="feature125">
-						<i class="uil uil-users-alt"></i>
-						<h4>Mentorship</h4>
-						<p>Our mentors will provide guidance, help you determine which career path is right for you, and provide career advices.</p>
-					</div>
-				</div>
-				<div class="col-lg-3  col-sm-6">
-					<div class="feature125">
-						<i class="uil uil-briefcase-alt"></i>
-						<h4>Career Coaching</h4>
-						<p>Our platform presents lots of data experts and industry professionals dedicated to helping you achieve your career goals.</p>
-					</div>
-				</div>
-				<div class="col-lg-3  col-sm-6">
-					<div class="feature125">
-						<i class="uil uil-chart-pie"></i>
-						<h4>Analytical Tools</h4>
-						<p>We move with emerging trends and new technologies to deliver timely, quality content, tools, and resources.</p>
-					</div>
-				</div>
-				<div class="col-lg-3  col-sm-6">
-					<div class="feature125">
-						<i class="uil uil-bullseye"></i>
-						<h4>Hands-On Project</h4>
-						<p>Learn and reinforce newly learned data science skills with virtual labs, certification practice tests, and skill assessments.</p>
-					</div>
+					<img class="line-title" src="images/line.svg" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Values End -->
+	<div class="faq1256" style="padding-bottom: 80px;">
+			<div class="container">			
+				<div class="row">
+					<div class="col-md-12">
+						<div class="">
+							<div class="row">
+								<div class="tab">
+									<button class="tablinks" onclick="openCity(event, 'Mentorship')" id="defaultOpen">Mentorship</button>
+									<button class="tablinks" onclick="openCity(event, 'Coaching')">Career Coaching</button>
+									<button class="tablinks" onclick="openCity(event, 'Practice')">Hands-On Practice</button>
+								</div>
+
+								<div id="Mentorship" class="tabcontent title478">
+								<p style="text-align: justify;">It is very easy to become overwhelmed with the unending and sometimes confusing information on the internet for becoming a data science and analytics professional. Aspiring data scientists and analytics professionals are constantly faced with questions such as, which programming language to learn (R or python), where do i get the right data and what do i need to do to get my first job?<br>
+								Our Mentors have assisted many people to launch their career because of their wealth of experience in the industry. Every participant at DataCquence will work directly with a mentor that will provide guidance on the curriculum, support them in choosing the right capstone project and how to present themselves in the industry.<br>
+								The goal of our mentorship programme is to:<br>
+								- Help you stay motivated through the programme.<br>
+								- Eliminate doubts and answer questions during the process.<br>
+								- Develop the right portfolio and brand required to launch your career.<br>
+								- Provide constructive and tailored feedback.<br>
+								- Help you build the right network.<br></p>
+								</div>
+
+								<div id="Coaching" class="tabcontent title478">
+								<p style="text-align: justify">Perception is everything! Our research and experience indicate that developing the right technical skill is not enough to break into the industry, land your dream job or launch your idea into a successful start-up. After developing the required technical skills, then comes the problem of getting the interview, which is where many people get frustrated and will likely start second-guessing themselves or feel they are not good enough.<br>
+								Career coaching is an integral part of all our programme with the goal of helping each participant develop a strong brand to put their best foot forward when they step into the market.<br>
+								We will focus on:<br>
+								- Developing your personal brand.<br>
+								- Understanding and highlighting your strengths.<br>
+								- Building your resume.<br>
+								- How to get interviews.<br>
+								- Preparing for Data Science/Analytics interviews.<br>
+								- Salary Negotiation.<br></p>
+								</div>
+
+								<div id="Practice" class="tabcontent title478">
+								<p style="text-align: justify;">Each participant is encouraged to choose capstone projects that align with their brand and career objectives. Working on the right real life project helps participants to develop the necessary skills needed for the daily life of a data scientist/Analyst and develop experiential knowledge required to be successful in interviews.<br>The mentors will guide participants in framing the right problems, data collection, cleaning and analysis. Delivering insights from data analytics to diverse audiences is a critical part of being a data scientist or analyst. Our participants work with their mentors to present their findings to an audience of peers, mentors and investors where they will be able to develop the necessary presentation skills.<br></p>
+								</div>
+							</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+	<!-- Propo Start -->
 	<!-- Courses Start -->
 	<section class="_215zd5" id="features">
 		<div class="container">
@@ -205,7 +222,7 @@
 		</div>
 	</section>
 	<!-- Courses End -->
-	<!-- Footer Start -->
+	<!-- Mentors Start -->
 	<div class="_215td5">
 		<div class="container">
 			<div class="row">
@@ -362,6 +379,7 @@
 	<script src="vendor/OwlCarousel/owl.carousel.js"></script>
 	<script src="vendor/semantic/semantic.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/tab.js"></script>
 	<script src="js/scroll-scripts.js"></script>
 	<script src="js/night-mode.js"></script>
 	

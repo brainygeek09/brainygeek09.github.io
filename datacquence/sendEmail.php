@@ -8,7 +8,7 @@ $message = $_POST['message'];
 $msg = "<html><body style='font-family:Arial,sans-serif;'>";
 $msg .= "<h2 style='font-weight:bold;border-bottom:1px dotted #ccc;'>DATACQUENCE</h2>\r\n";
 $msg .= "<p><strong>From:</strong> " . $fullName . "</p>\r\n";
-$msg .= "<p><strong>Phone:</strong> " . $phone . "</p>\r\n";
+$msg .= "<p><strong>Email:</strong> " . $emailaddress . "</p>\r\n";
 $msg .= "<p><strong>Message:</strong> <br /> " . $message . " </p>";
 $msg .= "</body></html>";
 
