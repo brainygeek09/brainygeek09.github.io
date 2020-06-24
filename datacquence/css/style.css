@@ -4897,7 +4897,7 @@ a.rmv-btn i {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0 !important;
-    margin-top: 50px !important;
+    margin-top: 0px !important;
     text-align: left;
     color: #686f7a;
     line-height: 26px;
@@ -4912,7 +4912,7 @@ a.rmv-btn i {
 
 .jmio125 img {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 0px;
 }
 
 
