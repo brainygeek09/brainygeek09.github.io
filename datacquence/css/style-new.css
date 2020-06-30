@@ -452,6 +452,11 @@ input[type=text] {
 	padding: 0 10px;
 }
 
+._14d25 {
+	float: left;
+	width: 100%;
+}
+
 .tutor_name {
 	font-size: 16px;
     font-weight: 500;
@@ -564,7 +569,7 @@ input[type=text] {
 }
 
 .footer {
-	background: #333;
+	background: #2D2DA0;
 	width: 100%;
 	padding: 0;
 	float: left;
@@ -600,17 +605,17 @@ input[type=text] {
     padding: 10px 15px;
     border: 0;
     border-radius: 20px;
-    color: #fff;
+    color: #2D2DA0;
     font-family: 'Roboto', sans-serif;
-    background: #2D2DA0;
+    background: #FEFF2A;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
 }
 
 .btn1542:hover {
-    color: #fff !important;
-    background: #000059;
+    color: #2D2DA0 !important;
+    background: #FEFF2A;
 }
 
 .lng_btn {
@@ -644,7 +649,7 @@ input[type=text] {
 .footer_bottm {
 	margin-top: 50px;
 	padding: 20px 0;
-	border-top: 1px solid #454545;
+	border-top: 1px solid #ffffff;
 }
 
 .fotb_left li {

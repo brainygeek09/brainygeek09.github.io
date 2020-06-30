@@ -9,7 +9,7 @@ include_once('Mail_Mime/mime.php');
 $max_allowed_file_size = 4096; // size in KB 
 $allowed_extensions = array("jpg", "jpeg", "png", "pdf", "doc", "docx");
 $upload_folder = './uploads/'; //<-- this folder must be writeable by the script
-$your_email = 'edu@datacquence.com';//<<--  update this to your email address
+$your_email = 'hello@datacquence.com';//<<--  update this to your email address
 
 $errors ='';
 

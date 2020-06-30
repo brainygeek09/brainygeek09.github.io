@@ -3,7 +3,7 @@
 $fullName = trim($_POST['fullName']);
 $emailaddress = trim($_POST['emailaddress']);
 $phone = trim($_POST['phone']);
-$site_owners_email = 'edu@datacquence.com'; // Replace this with your own email address
+$site_owners_email = 'hello@datacquence.com'; // Replace this with your own email address
 $message = $_POST['message'];
 
 $msg = "<html><body style='font-family:Arial,sans-serif;'>";

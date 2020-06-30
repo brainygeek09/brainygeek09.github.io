@@ -453,10 +453,14 @@ Night Mood
 }
 
 .night-mode .footer {
-    background: #242424;
+    background: #2D2DA0;
 }
 
 .night-mode .btn1542 {
+    color: #fff !important;
+}
+
+.night-mode .btn0909 {
     color: #fff !important;
 }
 
