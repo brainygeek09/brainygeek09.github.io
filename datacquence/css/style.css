@@ -1352,9 +1352,9 @@ i.icon1 {
 
 .tutor_img {
     width: 100%;
-    float: left;
+    float: center;
 	padding: 20px;
-	text-align: center;
+    text-align: center;
 }
 
 .tutor_img img {
@@ -1369,10 +1369,8 @@ i.icon1 {
 
 .tutor_content_dt {
 	text-align: center;
-	float: left;
     width: 100%;
     margin-bottom: 20px;
-	padding: 0 10px;
 }
 
 .tutor_name {

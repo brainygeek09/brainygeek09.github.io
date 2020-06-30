@@ -378,14 +378,24 @@ body {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: #00FFD0;
-    background: -webkit-linear-gradient(to top, #43453f 0%, #333333 52%, #000000 100%);
-    background: linear-gradient( to top, #43453f 0%, #333333 52%, #000000 100% );
-    background-position: center;
+    background-image: url(../images/banner/banner-2.png);
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
+
+/* header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url(../images/banner/banner-2.png);
+    background: -webkit-linear-gradient(to top, #43453f 0%, #333333 52%, #000000 100%);
+    background: linear-gradient( to top, #43453f 0%, #333333 52%, #000000 100% );
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+} */
 
 #mainNav .navbar-nav .nav-item .nav-link {
     color: #333333;
